@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------- */
+/* Self-hosted fonts (no external network calls at build or runtime)      */
+/* ---------------------------------------------------------------------- */
+@import "@fontsource/sora/600.css";
+@import "@fontsource/sora/700.css";
+@import "@fontsource/sora/800.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+@import "@fontsource/ibm-plex-mono/600.css";
+
+/* ---------------------------------------------------------------------- */
+/* FleetLog design tokens                                                 */
+/* Palette derived from Bolt Ghana's on-brand black/emerald/mint system,  */
+/* rebalanced around a light, data-dense operations console.              */
+/* ---------------------------------------------------------------------- */
+:root {
+  --color-obsidian: #0a100c;
+  --color-obsidian-soft: #14231c;
+  --color-emerald: #1f7a52;
+  --color-emerald-deep: #145236;
+  --color-emerald-soft: #e4f2ea;
+  --color-mint: #4ff3a5;
+  --color-amber: #f2a93b;
+  --color-amber-soft: #fbead0;
+  --color-rose: #e5535c;
+  --color-rose-soft: #fbe6e7;
+  --color-cream: #f7f9f4;
+  --color-panel: #ffffff;
+  --color-ink: #12201a;
+  --color-slate: #5b6b63;
+  --color-slate-soft: #8b988f;
+  --color-line: #e0e6dd;
+
+  --font-display: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+
+@theme inline {
+  --color-obsidian: var(--color-obsidian);
+  --color-obsidian-soft: var(--color-obsidian-soft);
+  --color-emerald: var(--color-emerald);
+  --color-emerald-deep: var(--color-emerald-deep);
+  --color-emerald-soft: var(--color-emerald-soft);
+  --color-mint: var(--color-mint);
+  --color-amber: var(--color-amber);
+  --color-amber-soft: var(--color-amber-soft);
+  --color-rose: var(--color-rose);
+  --color-rose-soft: var(--color-rose-soft);
+  --color-cream: var(--color-cream);
+  --color-panel: var(--color-panel);
+  --color-ink: var(--color-ink);
+  --color-slate: var(--color-slate);
+  --color-slate-soft: var(--color-slate-soft);
+  --color-line: var(--color-line);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-data: var(--font-data);
+
+  --animate-rise: rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+::selection {
+  background: var(--color-mint);
+  color: var(--color-obsidian);
+}
+
+/* Slim, quiet scrollbars for data-dense tables */
+.scroll-thin::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.scroll-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 999px;
+}
+
+/* Tabular figures everywhere numbers are compared in a column */
+.tabular {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
