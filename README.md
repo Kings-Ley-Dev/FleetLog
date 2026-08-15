@@ -89,7 +89,7 @@ cp .env.example .env.local
 ### 4. Run the dev server
 
 ```bash
-npm run dev 
+npm run dev
 ```
 
 Visit [http://localhost:3000](http://localhost:3000).
@@ -130,4 +130,4 @@ FleetLog has three self-service entry points, deliberately kept apart:
   analytics. Registers via the private manager portal.
 - **System Admin**: Everything a manager can do, plus manages every
   account/role and reviews the audit log. Registers via the private admin
-  portal.
+  portal. 
