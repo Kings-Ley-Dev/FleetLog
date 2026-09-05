@@ -1,6 +1,6 @@
 # FleetLog
 
-**URL**: [https://taskmate.indiginfoundation.com](https://fleetlogapp.vercel.app/)
+**URL**: [https://fleetlogapp.vercel.app](https://fleetlogapp.vercel.app/) 
 
 ## Project Info
 
