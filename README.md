@@ -1,8 +1,8 @@
 # FleetLog
 
-**URL**: [https://fleetlogapp.vercel.app](https://fleetlogapp.vercel.app/) 
-
 ## Project Info
+
+- **URL**: [https://fleetlogapp.vercel.app](https://fleetlogapp.vercel.app/) 
 
 - A fuel and fleet expense tracker for transport operators in Ghana which is used to
   log fuel purchases, watch km/L efficiency and cost-per-km update automatically, and
