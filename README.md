@@ -8,7 +8,7 @@
   log fuel purchases, watch km/L efficiency and cost-per-km update automatically, and
   stay ahead of vehicle maintenance.
 
-- Built with Next.js 16, TypeScript, MongoDB/Mongoose, and Tailwind CSS v4.
+- Built with Next.js 16, TypeScript, MongoDB/Mongoose, and Tailwind CSS v4. 
 
 ## Project Stack
 
