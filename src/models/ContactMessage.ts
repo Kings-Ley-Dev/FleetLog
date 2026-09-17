@@ -1,4 +1,4 @@
-import { Schema, model, models, type Model, type Types } from "mongoose";
+import { Schema, model, models, type Model, type Types } from "mongoose"; 
 
 export interface IContactMessage {
   _id: Types.ObjectId;
