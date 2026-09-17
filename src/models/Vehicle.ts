@@ -1,4 +1,4 @@
-import { Schema, model, models, type Model, type Types } from "mongoose";
+import { Schema, model, models, type Model, type Types } from "mongoose"; 
 
 export type FuelType = "PETROL" | "DIESEL" | "HYBRID" | "ELECTRIC";
 export type VehicleStatus = "ACTIVE" | "IN_SERVICE" | "INACTIVE";
