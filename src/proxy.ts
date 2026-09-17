@@ -1,4 +1,4 @@
-import { NextResponse, type NextRequest } from "next/server";
+import { NextResponse, type NextRequest } from "next/server"; 
 import { AUTH_COOKIE_NAME, verifySessionToken } from "@/lib/auth";
 
 const PROTECTED_PREFIX = "/dashboard";
