@@ -1,4 +1,4 @@
-import type { Role } from "@/lib/validation";
+import type { Role } from "@/lib/validation"; 
 
 /**
  * Plain-object shapes returned by the API and passed into Client
