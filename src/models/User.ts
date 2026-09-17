@@ -1,4 +1,4 @@
-import { Schema, model, models, type Model, type Types } from "mongoose";
+import { Schema, model, models, type Model, type Types } from "mongoose"; 
 
 export type UserRole = "ADMIN" | "MANAGER" | "DRIVER";
 export type UserStatus = "ACTIVE" | "PENDING" | "DISABLED";
