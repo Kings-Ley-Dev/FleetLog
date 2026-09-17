@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ToastProvider } from "@/components/ui/Toast";
+import { ToastProvider } from "@/components/ui/Toast"; 
 import "./globals.css";
 
 export const metadata: Metadata = {
