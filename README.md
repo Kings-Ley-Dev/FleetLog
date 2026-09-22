@@ -10,7 +10,7 @@
 
 - Built with Next.js 16, TypeScript, MongoDB/Mongoose, and Tailwind CSS v4. 
 
-## Project Stack
+## Project Stack 
 
 | Layer      | Choice                                                                        |
 | ---------- | ----------------------------------------------------------------------------- |
