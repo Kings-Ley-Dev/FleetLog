@@ -1,12 +1,12 @@
-# FleetLog 
+# FleetLog
 
-## Project Info 
+## Project Info
 
 - **URL**: [https://fleetlogapp.vercel.app](https://fleetlogapp.vercel.app/) 
 
 - A fuel and fleet expense tracker for transport operators in Ghana which is used to
   log fuel purchases, watch km/L efficiency and cost-per-km update automatically, and
-  stay ahead of vehicle maintenance.
+  stay ahead of vehicle maintenance. 
 
 - Built with Next.js 16, TypeScript, MongoDB/Mongoose, and Tailwind CSS v4. 
 
