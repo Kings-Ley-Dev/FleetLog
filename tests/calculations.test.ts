@@ -4,7 +4,7 @@ import {
   computeEfficiencyKmL,
   computeCostPerKm,
   computeFuelLog,
-  validateOdometerReading,
+  validateOdometerReading,  
   rateEfficiency,
   round2,
   CalculationError,
