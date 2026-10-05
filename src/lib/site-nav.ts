@@ -1,7 +1,7 @@
 /** Public site navigation, shared by PublicNavbar and PublicFooter so
  * the two never drift out of sync. */
 export const NAV_LINKS = [
-  { href: "/", label: "Home" },
+  { href: "/", label: "Home" },  
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
