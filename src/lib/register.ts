@@ -4,7 +4,7 @@ import User from "@/models/User";
 import { hashPassword, signSessionToken } from "./auth";
 import type { Role } from "./validation";
 
-export class EmailInUseError extends Error {
+export class EmailInUseError extends Error {  
   constructor() {
     super("An account with that email already exists.");
   }
