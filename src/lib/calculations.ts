@@ -1,4 +1,4 @@
-/**
+/** 
  * Pure business-logic functions for FleetLog's fuel efficiency engine.
  *
  * Kept free of Mongoose/Next.js imports on purpose: this is the module the
@@ -6,7 +6,7 @@
  * without a database or HTTP layer in the loop.
  */
 
-export class CalculationError extends Error {}
+export class CalculationError extends Error {} 
 
 /**
  * Distance covered between two odometer readings.
