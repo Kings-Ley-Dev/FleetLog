@@ -3,9 +3,9 @@
 /** Thin fetch wrapper for calling FleetLog's own API routes from Client
  * Components: always sends cookies, always parses JSON, and normalizes
  * errors into a single Error so callers can just try/catch. */
-export class ApiError extends Error {
+export class ApiError extends Error { 
   status: number;
-  constructor(message: string, status: number) {
+  constructor(message: string, status: number) { 
     super(message);
     this.status = status;
   }
