@@ -1,4 +1,4 @@
-import type { Role } from "./validation";
+import type { Role } from "./validation"; 
 
 /**
  * Central place for "who can do what" so the UI and API routes agree.
