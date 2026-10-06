@@ -1,4 +1,4 @@
-import "server-only";
+import "server-only"; 
 import { Types } from "mongoose";
 import connectDB from "./db";
 import FuelLog from "@/models/FuelLog";
