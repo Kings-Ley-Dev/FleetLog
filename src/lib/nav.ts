@@ -1,4 +1,4 @@
-import type { LucideIcon } from "lucide-react";
+import type { LucideIcon } from "lucide-react"; 
 import { LayoutDashboard, Fuel, Car, Wrench, Users, ScrollText, UserCircle } from "lucide-react";
 import type { Role } from "./validation";
 
