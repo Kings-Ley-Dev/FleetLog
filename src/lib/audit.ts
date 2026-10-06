@@ -1,5 +1,5 @@
-import "server-only";
-import AuditLog from "@/models/AuditLog";
+import "server-only"; 
+import AuditLog from "@/models/AuditLog"; 
 
 /** Fire-and-forget audit trail write (Admin visibility, SRS §2 System Admin). */
 export async function recordAudit(actorId: string, action: string, detail?: string) {
