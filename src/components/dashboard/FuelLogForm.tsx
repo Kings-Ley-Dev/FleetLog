@@ -12,7 +12,7 @@ interface FuelLogFormProps {
   vehicles: VehicleDTO[];
   drivers?: UserDTO[];
   onSuccess: (log: FuelLogDTO) => void;
-  onCancel: () => void;
+  onCancel: () => void;  
 }
 
 export function FuelLogForm({ vehicles, drivers, onSuccess, onCancel }: FuelLogFormProps) {
