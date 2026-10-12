@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 interface StatCardProps {
   label: string;
   value: string;
-  sub?: string;
+  sub?: string;  
   icon: LucideIcon;
   tone?: "emerald" | "amber" | "obsidian" | "rose";
 }
