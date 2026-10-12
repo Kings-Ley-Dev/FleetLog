@@ -5,7 +5,7 @@ import { Input, Select, Textarea } from "@/components/ui/Field";
 import { Button } from "@/components/ui/Button";
 import { apiFetch, ApiError } from "@/lib/api";
 import { computeFuelLog } from "@/lib/calculations";
-import { formatGHS } from "@/lib/utils";
+import { formatGHS } from "@/lib/utils";  
 import type { VehicleDTO, UserDTO, FuelLogDTO } from "@/types";
 
 interface FuelLogFormProps {
