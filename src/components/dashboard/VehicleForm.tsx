@@ -9,7 +9,7 @@ import type { VehicleDTO, UserDTO } from "@/types";
 interface VehicleFormProps {
   vehicle?: VehicleDTO;  
   drivers: UserDTO[];
-  onSuccess: (vehicle: VehicleDTO) => void;
+  onSuccess: (vehicle: VehicleDTO) => void;  
   onCancel: () => void;
 }
 
