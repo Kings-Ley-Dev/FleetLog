@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { LogoMark } from "@/components/icons/Logo";
-import { FacebookIcon, TwitterIcon, InstagramIcon, LinkedinIcon } from "@/components/icons/SocialIcons";
+import { FacebookIcon, TwitterIcon, InstagramIcon, LinkedinIcon } from "@/components/icons/SocialIcons";  
 import { NAV_LINKS, SOCIAL_LINKS } from "@/lib/site-nav";
 
 const SOCIAL_ICONS = {
