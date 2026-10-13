@@ -6,7 +6,7 @@ import { NAV_LINKS, SOCIAL_LINKS } from "@/lib/site-nav";
 const SOCIAL_ICONS = {
   facebook: FacebookIcon,
   twitter: TwitterIcon,
-  instagram: InstagramIcon,
+  instagram: InstagramIcon,  
   linkedin: LinkedinIcon,
 } as const;
 
