@@ -10,7 +10,7 @@ import { navForRole } from "@/lib/nav";
 import { roleLabel } from "@/lib/rbac";
 import { initials, cn } from "@/lib/utils";
 import { apiFetch } from "@/lib/api";
-import type { UserDTO } from "@/types";
+import type { UserDTO } from "@/types";   
 
 export function DashboardShell({ user, children }: { user: UserDTO; children: React.ReactNode }) {
   const [mobileOpen, setMobileOpen] = useState(false);
